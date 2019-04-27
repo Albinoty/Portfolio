@@ -1,18 +1,55 @@
-#carousel{
 
-    margin-top: 108px;
+/* Barre de Navigation*/
+.barNav{
+
+    background-color: rgb(75, 75, 75);
+    font-size:30px;
 
 }
 
+/*Section Intro*/
 .introSite{
-    background: url('../img/intro.jpg');
+    
+    margin-top: 110px;
+    background: url('../img/intro.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.introSite>div,p{
+
+    font-size:30px;
+    color:white;
+
+}
+
+#introImage{
+
+    width: 100%;
+
 }
 
 
+h1{
 
+    font-size:60px
 
+}
 
-/*
-.divText{
-    background-color: rgba(0, 0, 0, 0.5);
-}*/
+h2{
+
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    font-size:40px;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#about{
+
+    background: black;
+}
