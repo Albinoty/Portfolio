@@ -1,3 +1,9 @@
+html{
+
+    scroll-behavior: smooth;
+
+}
+
 
 /* Barre de Navigation*/
 .barNav{
@@ -21,7 +27,7 @@
 
     font-size:30px;
     color:white;
-
+    text-shadow:  2px 2px black;
 }
 
 #introImage{
@@ -51,5 +57,8 @@ h2{
 
 #about{
 
-    background: black;
+    background: rgb(125,125,125);
+    padding-top: 116px;
+    height: 100vh;
 }
+
