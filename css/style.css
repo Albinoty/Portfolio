@@ -15,9 +15,10 @@ html{scroll-behavior: smooth;}
 /*Section Intro*/
 .introSite{
     
-    background: url('../img/intro.jpg') center center no-repeat;
+    background: url('../img/intro.png') center center no-repeat;
     background-size: cover;
     padding-top:120px;
+    padding-bottom:100px;
 
 }
 
