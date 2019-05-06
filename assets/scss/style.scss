@@ -1,0 +1,91 @@
+html{
+    /* Effet du scroll de la page*/
+    scroll-behavior: smooth;
+    body{
+        a{font-size:30px;}
+        /* Style de texte*/
+        h1{
+            font-size:60px;
+            padding-top:100px;
+            padding-bottom: 50px;
+        }
+
+        h2{
+            border-top:1px solid black;
+            border-bottom:1px solid black;
+            font-size:50px;
+            text-transform: uppercase;
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .progress-title{font-size:25px;}
+        /* Fin Style de texte*/
+        /* Barre de Navigation*/
+        header{
+            nav.barNav{
+                background-color: #714d05;
+            }
+        }
+        /* Fin Barre de Navigation */
+        /** Section **/
+        /*Section Intro*/
+        section.introSite{
+            background: url('../img/intro.png') center center no-repeat;
+            background-size: cover;
+            padding-top:120px;
+            padding-bottom:100px;
+            div{
+                font-size:30px;
+                color:white;
+                text-shadow:  2px 2px black;   
+            }
+        }
+        /* Fin Section Intro*/
+        /* Début Section About*/
+        section#about{
+            background: #714d055c;
+            padding-top: 116px;
+            height: 100%;
+        }
+        /* Fin Section About*/
+        /* Début Section service*/
+
+        #service{
+            background: white;
+            padding-top: 116px;
+            height: 100%;
+        }
+        /* Fin Section Service*/
+        /* Début Section Work*/
+        #work{
+            background: #714d055c;
+            padding-top: 116px;
+            height: 100%;
+        }
+        #formulaire{
+            background: white;
+            padding-top: 116px;
+            height: 100%;
+            textarea{
+                resize: none;
+            }
+        }
+        /* Fin Section Work*/
+        /** Fin Section **/
+        footer{
+            background: #714d055c;
+            height: 100%;
+            .insta{
+                color: #dd2a7b;
+            }
+            .twitter{
+                color:#08a0e9;
+            }
+            .snap{
+                color:yellow;
+            }
+        }
+    }
+}

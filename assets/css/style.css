@@ -1,0 +1,112 @@
+@charset "UTF-8";
+html {
+  /* Effet du scroll de la page*/
+  scroll-behavior: smooth;
+}
+
+html body {
+  /* Style de texte*/
+  /* Fin Style de texte*/
+  /* Barre de Navigation*/
+  /* Fin Barre de Navigation */
+  /** Section **/
+  /*Section Intro*/
+  /* Fin Section Intro*/
+  /* Début Section About*/
+  /* Fin Section About*/
+  /* Début Section service*/
+  /* Fin Section Service*/
+  /* Début Section Work*/
+  /* Fin Section Work*/
+  /** Fin Section **/
+}
+
+html body a {
+  font-size: 30px;
+}
+
+html body h1 {
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+html body h2 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 50px;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+html body .progress-title {
+  font-size: 25px;
+}
+
+html body header nav.barNav {
+  background-color: #714d05;
+}
+
+html body section.introSite {
+  background: url("../img/intro.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+html body section.introSite div {
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+html body section#about {
+  background: #714d055c;
+  padding-top: 116px;
+  height: 100%;
+}
+
+html body #service {
+  background: white;
+  padding-top: 116px;
+  height: 100%;
+}
+
+html body #work {
+  background: #714d055c;
+  padding-top: 116px;
+  height: 100%;
+}
+
+html body #formulaire {
+  background: white;
+  padding-top: 116px;
+  height: 100%;
+}
+
+html body #formulaire textarea {
+  resize: none;
+}
+
+html body footer {
+  background: #714d055c;
+  height: 100%;
+}
+
+html body footer .insta {
+  color: #dd2a7b;
+}
+
+html body footer .twitter {
+  color: #08a0e9;
+}
+
+html body footer .snap {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
