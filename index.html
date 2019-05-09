@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <!-- Animate.Css -->
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <title>Albinoty Portfolio</title>
 </head>
 <body>
@@ -125,7 +127,7 @@
     <section id="work">
         <div class="container pb-5">
             <h2>Recent Work</h2>
-            <div class="row">
+            <div class="row pt-5">
                 <div class="col-lg">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ex provident est assumenda consequatur molestias ducimus eos a corrupti nulla.</p>
                 </div>
@@ -172,7 +174,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="row pt-5 pb-5">
                 <div class="col-xl-6">
@@ -183,8 +185,8 @@
                         <a href="https://www.snapchat.com/l/fr-fr/" class="snap p-2"><i class="fab fa-snapchat-ghost"></i></a>
                     </p>
                 </div>
-                <div class="col-xl-6 align-middle">
-                    <p>&copy; 2019 Albinoty Copyright. All rights reserved.</p>
+                <div class="col-xl-6">
+                    <p class="copy text-center">&copy; 2019 Albinoty Copyright. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -193,11 +195,7 @@
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <!-- Bootstrap Script -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script>
-    // Permet de fermer la navbar lors d'un clique d'un a sous mobile
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
-    </script>
+    <!-- My Script Js -->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

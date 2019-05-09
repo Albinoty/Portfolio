@@ -26,7 +26,7 @@ html body a {
 }
 
 html body h1 {
-  font-size: 60px;
+  font-size: 2em;
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -34,7 +34,7 @@ html body h1 {
 html body h2 {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  font-size: 50px;
+  font-size: 2.5xem;
   text-transform: uppercase;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -45,7 +45,7 @@ html body h2 {
 }
 
 html body .progress-title {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 html body header nav.barNav {
@@ -108,5 +108,9 @@ html body footer .twitter {
 
 html body footer .snap {
   color: yellow;
+}
+
+html body footer p.copy {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
