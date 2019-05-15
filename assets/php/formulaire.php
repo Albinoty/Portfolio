@@ -18,11 +18,7 @@
         $data = htmlspecialchars($data);
         return $data;
     }
-    
-    $user="root";
-    $pass="";
-
-    
+       
 
     
 
