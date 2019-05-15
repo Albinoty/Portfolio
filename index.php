@@ -149,7 +149,14 @@
     <section id="formulaire">
         <div class="container pb-5">
             <h2>Contact Me</h2>
-            <form action="#" method="post" class="col-lg mt-5">
+            <?php 
+                $notification="";
+
+                echo "<p class='text-center pt-2 text-success'>";
+                echo $notification;
+                echo "</p>";
+            ?>
+            <form action="./assets/php/formulaire.php" method="post" id="form" class="col-lg mt-5">
                 <div class="form-group row">
                     <div class="col-md-6 pt-3">
                         <input type="text" name="prenom" placeholder="Your firstname *" class="form-control">
@@ -164,10 +171,10 @@
                         <input type="text" name="phone" placeholder="Your phone" class="form-control">
                     </div>
                     <div class="col-md-12 pt-3">
-                        <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                        <textarea name="message" placeholder="Message for me *" rows="4" class="form-control"></textarea>
                     </div>
                     <div class="col-md-12 pt-3 text-center">
-                        <button type="button" class="btn alert-primary">Send your message</button>
+                        <input type="submit" name="submit" form="form" class="btn alert-primary" value="Send your Messages">
                     </div>
                 </div>
             </form>
