@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Portfolio Web Developer - by Albinot Fetahi">
     <meta name="author" content="Albinot Fetahi">
+    <!-- Main Css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Animate.Css -->
     <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <title>Albinoty Portfolio</title>
@@ -149,14 +146,14 @@
     <section id="formulaire">
         <div class="container pb-5">
             <h2>Contact Me</h2>
-            <?php 
-                $notification="";
+                <?php
+                    
+                    $notif="";
+    
+                    echo "<p>".$notif."</p>";
 
-                echo "<p class='text-center pt-2 text-success'>";
-                echo $notification;
-                echo "</p>";
-            ?>
-            <form action="./assets/php/formulaire.php" method="post" id="form" class="col-lg mt-5">
+                ?>
+            <form action="./assets/php/db/formulaire.php" method="post" id="form" class="col-lg mt-5">
                 <div class="form-group row">
                     <div class="col-md-6 pt-3">
                         <input type="text" name="prenom" placeholder="Your firstname *" class="form-control">
@@ -203,6 +200,6 @@
     <!-- Bootstrap Script -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <!-- My Script Js -->
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
