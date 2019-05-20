@@ -93,8 +93,8 @@
 
             }
     
-            $user=$_POST['user'];
-            $password=$_POST['password'];
+            $user=htmlspecialchars($_POST['user']);
+            $password=htmlspecialchars($_POST['password']);
 
 
             if($user==$userCompare && password_verify($password,$passwordCompare)){

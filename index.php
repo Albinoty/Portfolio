@@ -153,7 +153,7 @@
                     echo "<p>".$notif."</p>";
 
                 ?>
-            <form action="./assets/php/db/formulaire.php" method="post" id="form" class="col-lg mt-5">
+            <form action="./assets/php/formulaire.php" method="post" id="form" class="col-lg mt-5">
                 <div class="form-group row">
                     <div class="col-md-6 pt-3">
                         <input type="text" name="prenom" placeholder="Your firstname *" class="form-control">

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Animate.Css -->
     <link rel="stylesheet" href="../../node_modules/animate.css/animate.css">
-    <title>Connexion Albinoty</title>
+    <title>Accueil Message Formulaire</title>
 </head>
 <body id="yolo">
     <header>

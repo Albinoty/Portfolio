@@ -16,28 +16,22 @@
         return $data;
     }
 
-    include("./connexion.php");
-/*
+    include("./db/connexion.php");
+
     $query="INSERT INTO messages(id_message,nom_message,prenom_message,email_message,tel_message,texte_message) values('','$nom','$prenom','$mail','$tel','$message')";
     $dbh->exec($query);
 
     if($dbh){
         echo "<script>";
         echo 'alert("Merci pour votre message. \n A très vite!");';
-        echo "window.location.href='../../../index.php';";
+        echo "window.location.href='../../index.php';";
         echo "</script>";
     }
     else{
         echo "<script>";
         echo "alert('Il a eu un problème \n Veuillez réessayer plus tard!')";
-        echo "window.location.href='../../../index.php';";
+        echo "window.location.href='../../index.php';";
         echo "</script>";
     }
-*/
-    echo "<script>";
-    echo 'alert("Merci pour votre message. \n A très vite!");';
-    echo "window.location.href='../../../index.php';";
-    echo "</script>";
-    
 
 ?>
